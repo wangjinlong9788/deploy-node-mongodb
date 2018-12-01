@@ -7,8 +7,8 @@ var logger = require('morgan');
 // Database
 var mongo = require('mongodb');
 var monk = require('monk');
-//var db = monk('mongodb://dbuserwang:<bit721033>@cluster0-shard-00-00-uiwhg.mongodb.net:27017/nodetest2');
-var db = monk('mongodb://dbuserwang:bit721033@cluster0-shard-00-00-uiwhg.mongodb.net:27017,cluster0-shard-00-01-uiwhg.mongodb.net:27017,cluster0-shard-00-02-uiwhg.mongodb.net:27017/test?ssl=true&replicaSet=Cluster0-shard-0&authSource=admin&retryWrites=true');
+//var db = monk('mongodb://dbuserwang:<>@cluster0-shard-00-00-uiwhg.mongodb.net:27017/nodetest2');
+var db = monk('mongodb://dbuserwang:yourpassword@cluster0-shard-00-00-uiwhg.mongodb.net:27017,cluster0-shard-00-01-uiwhg.mongodb.net:27017,cluster0-shard-00-02-uiwhg.mongodb.net:27017/test?ssl=true&replicaSet=Cluster0-shard-0&authSource=admin&retryWrites=true');
 //mongodb://dbuserwang:<bit721033>@cluster0-shard-00-00-uiwhg.mongodb.net:27017,cluster0-shard-00-01-uiwhg.mongodb.net:27017,cluster0-shard-00-02-uiwhg.mongodb.net:27017/test?ssl=true&replicaSet=Cluster0-shard-0&authSource=admin&retryWrites=true
 //
 //var MongoClient = require('mongodb').MongoClient;
