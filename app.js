@@ -13,7 +13,7 @@ var db = monk('mongodb://your_dbusername:yourpassword@cluster0-shard-00-00-uiwhg
 //
 //var MongoClient = require('mongodb').MongoClient;
 
-//var uri = "mongodb://dbuserwang:<Bit721033!>@cluster0-shard-00-00-uiwhg.mongodb.net:27017,cluster0-shard-00-01-uiwhg.mongodb.net:27017,cluster0-shard-00-02-uiwhg.mongodb.net:27017/test?ssl=true&replicaSet=Cluster0-shard-0&authSource=admin&retryWrites=true"; 
+//var uri = "mongodb://your_dbusername:yourpassword@cluster0-shard-00-00-uiwhg.mongodb.net:27017,cluster0-shard-00-01-uiwhg.mongodb.net:27017,cluster0-shard-00-02-uiwhg.mongodb.net:27017/test?ssl=true&replicaSet=Cluster0-shard-0&authSource=admin&retryWrites=true"; 
 //MongoClient.connect(uri, function(err, db) {
   //if (err) throw err;
  // console.log("created db!");
